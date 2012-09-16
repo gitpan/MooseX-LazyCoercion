@@ -96,7 +96,7 @@ MooseX::LazyCoercion - Coercion deferred to attribute call time
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

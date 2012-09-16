@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution MooseX-LazyCoercion,
-version 0.001:
+version 0.002:
 
   Coercion deferred to attribute call time
 

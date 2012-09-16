@@ -1,4 +1,13 @@
-use Test::More tests => 4;
+use Test::More;
+BEGIN {
+    eval { require MooseX::Types::DateTime };
+    if ($@) {
+        die $@;
+        plan skip_all => "MooseX::Types::DateTime not installed";
+    } else {
+        plan tests => 4;
+    }
+}
 {
     package My::Foo;
     use Moose;
